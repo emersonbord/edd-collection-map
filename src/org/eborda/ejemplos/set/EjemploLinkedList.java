@@ -41,6 +41,25 @@ public class EjemploLinkedList {
 
         System.out.println(enlazada + ", size = " + enlazada.size());
 
+        //Eliminar el objeto mediante el índice o mediante la misma instancia
+        //remove() a secas elimina el primero, es como removeFirst()
+        enlazada.remove(new Alumno("Jano", 7));
+        System.out.println(enlazada + ", size = " + enlazada.size());
+
+        Alumno a = new Alumno("Lucas", 5);
+        enlazada.addLast(a);
+        //Devolver el índice
+        System.out.println("Índice de Lucas = " + enlazada.indexOf(a));
+
+        //Eliminar por el índice
+        enlazada.remove(2);
+        System.out.println(enlazada + ", size = " + enlazada.size());
+        System.out.println("Índice de Lucas = " + enlazada.indexOf(a));
+
+        //Para modificar, reemplazamos el índice 3 por lalo
+        enlazada.set(3, new Alumno("Lalo", 7));
+        System.out.println(enlazada + ", size = " + enlazada.size());
+
 
     }
 }
