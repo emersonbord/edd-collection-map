@@ -4,7 +4,7 @@
 objetos de cualquier clase. Dichas colecciones no forman parte del lenguaje, sino que son clases definidas en el paquete java. En este proyecto se trabajará con pilas y colas,
 manipulando datos con los ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, etc. 
 
-Las colecciones tienen 2 grandes gruposque son las siguientes interfaces:
+Las colecciones tienen 2 grandes grupos que son las siguientes interfaces:
 
   - Collection
   - Map 
