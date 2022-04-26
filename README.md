@@ -14,11 +14,11 @@ Las colecciones tienen 2 grandes grupos que son las siguientes interfaces:
 En la interfaz **Collection** heredan 2 subclases `List` y `Set` que también son interfaces.
 
     List
-Dentro de los `List` heredan 3 subclases más las cuales son los **ArrayList, LinkedList y Vector**
+Dentro de los `List` heredan 3 subclases más las cuales son los **ArrayList, LinkedList y Vector**.
 
     Set
-Dentro de los `Set` heredan 3 subclases al igual que los List, las cuales tenemos a los **HashSet, TreeSet y LinkedHashSet**
+Dentro de los `Set` heredan 3 subclases al igual que los List, las cuales tenemos a los **HashSet, TreeSet y LinkedHashSet**.
 
 ✅ Map
 
-Por otro lado en la interfaz **Map** se heredan 3 subclases, las cuales son los **HashMap, TreeMap y LinkedHashMap**, este último hereda de igual manera de HashMap
+Por otro lado en la interfaz **Map** se heredan 3 subclases, las cuales son los **HashMap, TreeMap y LinkedHashMap**, este último hereda de igual manera de HashMap.
