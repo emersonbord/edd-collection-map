@@ -2,8 +2,9 @@
 
 **Descripción:** El API de Java nos proporciona el framework de las colecciones, que nos permite utilizar diferentes estructuras de datos para almacenar y recuperar 
 objetos de cualquier clase. Dichas colecciones no forman parte del lenguaje, sino que son clases definidas en el paquete java. En este proyecto se trabajará con pilas y colas,
-manipulando datos con los ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, etc. Las colecciones tienen 2 grandes grupos
-que son las siguientes interfaces:
+manipulando datos con los ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, etc. 
+
+Las colecciones tienen 2 grandes gruposque son las siguientes interfaces:
 
   - Collection
   - Map 
