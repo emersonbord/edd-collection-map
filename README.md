@@ -9,7 +9,7 @@ Las colecciones tienen 2 grandes grupos que son las siguientes interfaces:
   - Collection
   - Map
  
- :laughing: :tw-2705: Collection
+✅ Collection
  
 En la interfaz **Collection** heredan 2 subclases `List` y `Set` que también son interfaces.
 
@@ -19,6 +19,6 @@ Dentro de los `List` heredan 3 subclases más las cuales son los **ArrayList, Li
     Set
 Dentro de los `Set` heredan 3 subclases al igual que los List, las cuales tenemos a los **HashSet, TreeSet y LinkedHashSet**
 
-:laughing: :tw-2705: Map
+✅ Map
 
 Por otro lado en la interfaz **Map** se heredan 3 subclases, las cuales son los **HashMap, TreeMap y LinkedHashMap**, este último hereda de igual manera de HashMap
