@@ -1,10 +1,11 @@
-package org.eborda.ejemplos.set;
+package org.eborda.ejemplos.list;
 
 import org.eborda.ejemplos.modelo.Alumno;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class EjemploLinkedList {
 
@@ -60,6 +61,18 @@ public class EjemploLinkedList {
         enlazada.set(3, new Alumno("Lalo", 7));
         System.out.println(enlazada + ", size = " + enlazada.size());
 
+
+        System.out.println("=====Iterando con ListIterator=====");
+        ListIterator<Alumno> li = enlazada.listIterator();
+        while (li.hasNext()){
+            Alumno alumno = li.next();
+            System.out.println(alumno);
+        }
+        System.out.println("============Previous=============");
+        while (li.hasPrevious()){
+            Alumno alumno = li.previous();
+            System.out.println(alumno);
+        }
 
     }
 }

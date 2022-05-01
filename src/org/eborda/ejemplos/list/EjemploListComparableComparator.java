@@ -1,4 +1,4 @@
-package org.eborda.ejemplos.set;
+package org.eborda.ejemplos.list;
 
 import org.eborda.ejemplos.modelo.Alumno;
 
