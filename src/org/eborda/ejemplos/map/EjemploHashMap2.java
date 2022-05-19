@@ -89,17 +89,17 @@ public class EjemploHashMap2 {
                 String nom = (String)persona.get("nombre");
                 //Valor del tipo Map hacemos un cast
                 Map<String, String> direccionMap = (Map<String, String>) valor;
-                System.out.println("El país de " + nom + ": "
-                        + direccionMap.get("pais"));
-                System.out.println("La ciudad de " + nom + ": " + direccionMap.get("Estado"));
-                System.out.println("La ciudad de " + nom + ": " + direccionMap.get("Ciudad"));
+                //Iterar con un for anidado
+                for (Map.Entry<String, String> parDir: direccionMap.entrySet()){
+                    System.out.println(parDir.getKey() + " =>" + parDir.getValue());
+                }
             } else{
                 System.out.println(par.getKey() + " => " + valor);
             }
 
         }
 
-        System.out.println(ANSI_CYAN + "===== ekeySet =====" + ANSI_RESET);
+        System.out.println(ANSI_CYAN + "===== keySet =====" + ANSI_RESET);
 
         //Otra forma
         for (String llave: persona.keySet()){
